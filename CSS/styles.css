@@ -101,10 +101,11 @@ main {
 }
 
 .hero-banner {
+  background-image: url("../Assets/silver-black-swirl-effect.jpg");
   background-size: cover;
   background-position: center;
   background-blend-mode: overlay;
-  min-height: 10vh;
+  min-height: 30vh;
   padding: 2% 6%;
   display: flex;
   justify-content: flex-end;
@@ -117,8 +118,8 @@ main {
 }
 
 .hero-banner h2 {
-  background-color: none;
-  color: rgb(43, 12, 59) ;
+  background-color: black;
+  color: whitesmoke ;
   margin: 0;
   padding: 5px 10px;
   font-size: 3vw;
@@ -214,7 +215,8 @@ main {
 
 .contact address a {
   color: var(--tertiary);
-  padding: 5px;
+  padding: 10px;
+  padding-bottom: 30px;
   text-decoration: none;
   font-size: 1.3rem;
   font-style: normal;
@@ -238,24 +240,24 @@ main {
 
 /* portfolio project images */
 
-.refactoring-1 {
-  background-image: url("PLACEHOLDER FOR PROJECT 2 SCREENSHOT");
+.refactoring-1  {
+  background-image: url("../Assets/Refactoring-for-Accessibility.png");
 }
 
 .project-2 {
-  background-image: url("PLACEHOLDER FOR PROJECT 2 SCREENSHOT");
+  background-image: url("../Assets/butterfly.jpg");
 }
 
 .project-3 {
-  background-image: url("PLACEHOLDER FOR PROJECT 3 SCREENSHOT");
+  background-image: url("../Assets/lake-scene.jpg");
 }
 
 .project-4 {
-  background-image: url("PLACEHOLDER FOR PROJECT 4 SCREENSHOT");
+  background-image: url("../Assets/raindrops.jpg");
 }
 
 .project-5 {
-  background-image: url("PLACEHOLDER FOR PROJECT 5 SCREENSHOT");
+  background-image: url("../Assets/white-flower.jpg");
 }
 
 
