@@ -1,106 +1,78 @@
-# 02 Advanced CSS: Portfolio
+# web-dev portfolio
 
-## Your Task
+# Code Refactoring for Accessibility Challenge: Horiseon Website
 
-Welcome to this week's Challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
+## My Task
 
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
-
-With these points in mind, in this Challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
-
-**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course. However, at least one application should be live. So you can add on Challenge 1's deployed application or Module's 1 Mini Project's deployed application.
-
-Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first Challenge, we follow the AS AN / I WANT / SO THAT format. 
-
-
-## User Story
-
-```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-```
-
+As a junior developer, I was tasked with creating a deployed portfolio of work samples to be utilized for future job applications.
 
 ## Acceptance Criteria
+WHEN the portfolio is loaded the user should be presented with my name
+THEN a photo/avatar (I disagree-personal choice), and links to sections about me, my work and how to contact me.
+WHEN the user clicks one of the links in the navigation
+THEN the UI scrolls to corresponding section.
+WHEN the user clicks one of the links to the section about my work
+THEN the UI scrolls to the section with titled images of my applications.
+WHEN the user is presented with my first application
+THEN that application's image is larger in size than the others.
+WHEN the user clicks on the images of the applications
+THEN they are taken to that deployed application.
+WHEN the user resizes the page or views the site on various screens and devices
+THEN they are presented with a responsive layout that adapts to the viewport
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+## Work Completed
 
-```
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
-```
-
-
-## Mock-Up
-
-The following animation shows the web application's appearance and functionality:
-
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
-
-
-## Grading Requirements
-
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
-
-This Challenge is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application resembles the mock-up functionality provided in the Challenge instructions.
-
-### Repository Quality: 13%
-
+* Added all personal info for bio as directed except the photo/avatar per personal choice.
+* Added and optimized the website title (SEO)
+* Internal links direct user to appropriate area of site or external deployed link when clicked on.
+* HTML makes use of semantic elements.
+* CSS selectors and properties are consolidated and organized to follow semantic structure.
+* CSS and HTML files are properly commented.
+* Responsive layout task completed.
+* Final landing page deployed at live URL.
+* Final landing page loads with no errors.
+* Challenge submitted with GitHub URL.
+* GitHub repo Webdev-Portfolio contains my HTML and CSS code.
+* Final landing page matches mock-up provided in the Challenge instructions.
 * Repository has a unique name.
-
 * Repository follows best practices for file structure and naming conventions.
-
 * Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
 * Repository contains multiple descriptive commit messages.
+* Repository contains quality README file with description, screenshot, and link to deployed application.
 
-* Repository contains quality readme with description, screenshot, link to deployed application.
+## Website Link
+https://github.com/CrystaltheStacker/webdev-portfolio
 
-## Review
+## Screenshot of refactored HTML
+![Refactored HTML Screenshot](../webdev-portfolio/webdev-portfolio%20html%20code.png)
 
-You are required to submit BOTH of the following for review:
+## Screenshot of refactored CSS
+![Refactored CSS Screenshot](../webdev-portfolio/webdev-portfolio%20css%20code.png)
 
-* The URL of the deployed application.
+## Screenshot of final landing page
+![Final Landing Page]()
 
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+## Contact
+crystaluncwebdev@gmail.com
 
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+MIT License
+
+Copyright (c) 2023 Crystal Hikal
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
