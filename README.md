@@ -47,8 +47,8 @@ https://github.com/CrystaltheStacker/webdev-portfolio
 ## Screenshot of refactored CSS
 ![Refactored CSS Screenshot](../webdev-portfolio/webdev-portfolio%20css%20code.png)
 
-## Screenshot of final landing page
-![Final Landing Page]()
+## Link to final deployed landing page
+![Final Landing Page]("https://crystalthestacker.github.io/webdev-portfolio/")
 
 ## Contact
 crystaluncwebdev@gmail.com
