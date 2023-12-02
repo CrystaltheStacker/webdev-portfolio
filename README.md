@@ -1,7 +1,5 @@
 # web-dev portfolio
 
-# Code Refactoring for Accessibility Challenge: Horiseon Website
-
 ## My Task
 
 As a junior developer, I was tasked with creating a deployed portfolio of work samples to be utilized for future job applications.
